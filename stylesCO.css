@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 40px
+}
+
+header .logo img {
+    width: 150px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+#sobre {
+    background-color: rgb(87, 171, 179);
+}
+
+#professores ul {
+    list-style: none;
+    padding: 0;
+}
+
+#professores ul li {
+    margin-bottom: 10px;
+}
+
+#contato p {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.button-list {
+    list-style-type: none;
+    background: #555;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.button-list li {
+    display: inline;
+}
+
+.button-list a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: #555;
+    padding: 15px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button-list a:hover {
+    background-color: #777;
+}
